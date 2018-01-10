@@ -6,10 +6,10 @@ All work related with infrastructure.
     The recursive keyword is needed because it will also clone a submodule (in this case called **emma**)
   ```
   #http version:
-  git clone --recursive https://github.com/phenology/infrastructure.git
+  git clone --recursive https://github.com/eEcoLiDAR/infrastructure.git
 
   #ssh version:
-  git clone --recursive git@github.com:phenology/infrastructure.git
+  git clone --recursive git@github.com:eEcoLiDAR/infrastructure.git
   ```
   * If you have cloned the repository but without the submodule, then do as follows:
   ```
@@ -18,10 +18,10 @@ All work related with infrastructure.
   git submodule update
   ```
 * Step 2
-  Enter the submodule and go to the *phenology* branch:
+  Enter the submodule and go to the *eEcoLiDAR* branch:
   ```
   cd infrastructure/<submodule_name>
-  git checkout phenology
+  git checkout eEcoLiDAR
   ```
 
 ## Platform
