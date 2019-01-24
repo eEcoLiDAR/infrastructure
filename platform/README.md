@@ -7,7 +7,7 @@ Once the platform is up and running, the user only needs to upload the input dat
 ## Virtual Machines
 Each platform setup will use a set of Virtual Machines (VMs). Create a set of VMs following the instructions of your preferred cloud provider. Please use the suggested template.
 
-Cloud provider | Admin | VM Template name | Instructions
+Cloud provider | Admin | Suggested VM Template | Instructions
 --- | --- | --- | ---
 SURFSara HPCcloud | Christiaan Meijer | Ubuntu-16.04.4-Server (2018-04-01) eEcolidarCluster | [README](https://github.com/eEcoLiDAR/infrastructure/blob/master/platform/SURFSaraHPCcloud.md)
 
