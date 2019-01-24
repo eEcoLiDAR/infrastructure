@@ -11,13 +11,13 @@ Emma is a project where ansible is used to setup a Spark cluster with GeoTrellis
 ```
 ansible-playbook install_platform_light.yml --tags "common,minio,hadoop,spark,pdal,geotrellis,jupyterhub,ecolidar"
 ```
-* To use an existing plattform, contact the owner listed below
+* To use an existing plattform, download the `tar` file from [eEcolidar's SURFsara Grid Storage](https://webdav.grid.surfsara.nl/pnfs/grid.sara.nl/data/projects.nl/eecolidar/01_Work/SURFSara_HPCcloud_Clusters/) with its configuration parameters. To `tar` file is protected with a password, it can be requested from the eEcolidar's admin for the SURFsara HPCcloud.
 
-Cloud provider | Cluster name | Owner/contact person
+Cloud provider | Cluster name | tar files'name
 --- | --- | --- 
-SURF-Sara HPC cloud | ecolidar | Romulo 
+SURF-Sara HPC cloud | eecolidar | SURFSara_HPCcloud_eecolidar.tar.gz
 
-The owner will email a zip folder with all the configuration parameters. Unzip the folder and follow the instructions. Before that we recommend to [install ansible](https://github.com/nlesc-sherlock/emma/blob/master/ansible.md#install-ansible).
+Unzip/UnTar the folder and follow the instructions in its README. Before that we recommend to [install ansible](https://github.com/nlesc-sherlock/emma/blob/master/ansible.md#install-ansible).
 
 * To install the platform the user should read the instructions detailed in [**emma's** set up](https://github.com/nlesc-sherlock/emma/blob/master/README.md#setup-environment). This assumes that you use an Ubuntu machine or that you have Windows 10 with [**WSL**](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide). If not, go to [**emma's** README](https://github.com/nlesc-sherlock/emma/blob/master/README.md).
 * To update the **Hadoop** and **Spark** cluster of your platform please follow the instructions in [**emma's update existent platform**](https://github.com/nlesc-sherlock/emma/blob/master/ansible.md#update-an-existing-platform).
