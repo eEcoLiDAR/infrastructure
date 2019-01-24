@@ -30,7 +30,7 @@ The platform provides two storage levels, a block-based storage through Hadoop D
 HDFS is the distributed storage of Hadoop and to access it is required to install Hadoop binaries.
 
 #### Hadoop binaries
-Before The user needs to download the binaries for Hadoop 2.8.1 (it should be the same version as the one used in the cluster).
+Before the user needs to download Hadoop binaries (it should be the same version as the one used in the cluster).
 ```
 wget http://archive.apache.org/dist/hadoop/common/hadoop-2.8.3/hadoop-2.8.3.tar.gz
 tar -xzf hadoop-2.8.3.tar.gz
