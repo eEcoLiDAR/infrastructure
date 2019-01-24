@@ -66,4 +66,4 @@ Information on how to start and shutdown the platform at SURFsara HCPcloud. It i
     ```
   * It might be necessary to [upload data](https://github.com/eEcolidar/infrastructure/blob/master/platform/README.md#data-loading).
   * If all of above is satisfied, go to the JupyterHub portal (Link available in the *README* file of the configuration package; and credentials available under **JUPYTERHUB_ACCOUNT** in the *credentials* file).  
-  * For more information on how to develop applications go to [applications](https://github.com/eEcolidar/infrastructure/tree/fix_documentation/applications).  
+  * For more information on how to develop applications go to [applications](https://github.com/eEcolidar/infrastructure/tree/master/applications).  
