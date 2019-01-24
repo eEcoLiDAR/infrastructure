@@ -24,7 +24,7 @@ Once it is installed the user only needs to `start the VMs` and once the work is
 
 
 ### Existing platform
-To use an existing plattform, download the `zip` file from [eEcolidar's SURFsara Grid Storage](https://webdav.grid.surfsara.nl/pnfs/grid.sara.nl/data/projects.nl/eecolidar/01_Work/SURFSara_HPCcloud_Clusters/) with its configuration parameters. Each `zip` file is protected with a password, it can be requested from the SURFsara HPCcloud account admin. the following table indicates which `zip` name for each cluster.
+To use an existing platform, download the `zip` file from [eEcolidar's SURFsara Grid Storage](https://webdav.grid.surfsara.nl/pnfs/grid.sara.nl/data/projects.nl/eecolidar/01_Work/SURFSara_HPCcloud_Clusters/) with its configuration parameters. Each `zip` file is protected with a password, it can be requested from the SURFsara HPCcloud account admin. the following table indicates which `zip` name for each cluster.
 
 Cloud provider | Cluster name | tar files'name | VM Template's used
 --- | --- | --- | ---
