@@ -45,3 +45,12 @@ In case of crashed VMs the user should use the same names. Once they are created
 Note that the installation command `ansible-playbook -i hosts_new install_platform_light.yml --skip-tags "hdfs_format"` should be replaced by `ansible-playbook -i hosts_new install_platform_light.yml --tags "common,pdal,geotrellis,ecolidar" --skip-tags "hdfs_format"` to avoid the installation of additional systems not needed by eEcolidar users.
 
 In case it was a cluster extension, the new nodes address needs to be added to the `hosts` file located at `infrastructure/platform/emma/`. Once the configuration parameters are extracted and copied the user only needs to `start the VMs` and once the work is done `shut them down`, detailed instructions are in [HPCcloud.md](https://github.com/eEcoLiDAR/infrastructure/blob/master/platform/HPCcloud.md).
+
+### Update firewall
+With all nodes up and running, and services initialized the user is now ready to develop or deploy an application, but before that pay attention to the following:
+  * It is important to make sure the user's computer IP is in the list of allowed IPs, if not it is required to update the list of allowed IPs (**PLEASE BE CAREFUL IN ADDING IPs**). If you have the IP **123.45.67.87** (just and example) the following entry *123.45.67.0/24* (We replaced *87* by *0/24* and it should always be like that) to **~/infrastructure/platform/emma/vars/common_vars.yml** list of IPs and then run:
+    ```
+    cd ~/infrastructure/emma/
+    . env_linux.sh
+    ansible playbook playbooks/install_spark.yml --tags "firewall"
+    ```
