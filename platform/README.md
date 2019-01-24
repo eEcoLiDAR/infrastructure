@@ -9,7 +9,7 @@ Each platform setup will use a set of Virtual Machines (VMs). Create a set of VM
 
 Cloud provider | Admin | VM Template name | Instructions
 --- | --- | --- | ---
-SURFSara HPCcloud | Christiaan Meijer | Ubuntu-16.04.4-Server (2018-04-01) eEcolidarCluster | [README](https://github.com/eEcoLiDAR/infrastructure/blob/master/platform/HPCcloud.md)
+SURFSara HPCcloud | Christiaan Meijer | Ubuntu-16.04.4-Server (2018-04-01) eEcolidarCluster | [README](https://github.com/eEcoLiDAR/infrastructure/blob/master/platform/SURFSaraHPCcloud.md)
 
 ## Emma
 Emma is a project where ansible is used to install **eEcolidar platform**, i.e., a set of tools necessary for the eEcolidar project.
