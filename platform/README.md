@@ -32,9 +32,9 @@ HDFS is the distributed storage of Hadoop and to access it is required to instal
 #### Hadoop binaries
 Before The user needs to download the binaries for Hadoop 2.8.1 (it should be the same version as the one used in the cluster).
 ```
-wget http://apache.hippo.nl/hadoop/common/hadoop-2.8.1/hadoop-2.8.1.tar.gz
-tar -xzf hadoop-2.8.1.tar.gz
-cd hadoop-2.8.1
+wget http://archive.apache.org/dist/hadoop/common/hadoop-2.8.3/hadoop-2.8.3.tar.gz
+tar -xzf hadoop-2.8.3.tar.gz
+cd hadoop-2.8.3
 ```
 Copy the Hadoop configuration environment, **core-site.xml** and **hdfs-site.xml**, from one of the virtual machines. Its location at the remote machine is **/etc/hadoop/conf/** and its destination is **etc/hadoop/**.
 Once the hadoop configuration is copied it is time to test it and for that let's list the user directories.
