@@ -9,7 +9,7 @@ Each platform setup will use a set of Virtual Machines (VMs). Create a set of VM
 
 Cloud provider | Admin | VM Template name | Instructions
 --- | --- | --- | ---
-SURF-Sara HPC cloud | Christiaan Meijer | Ubuntu-16.04.4-Server (2018-04-01) eEcolidarCluster | [README](https://github.com/eEcoLiDAR/infrastructure/blob/master/platform/HPCcloud.md)
+SURFSara HPCcloud | Christiaan Meijer | Ubuntu-16.04.4-Server (2018-04-01) eEcolidarCluster | [README](https://github.com/eEcoLiDAR/infrastructure/blob/master/platform/HPCcloud.md)
 
 ## Emma
 Emma is a project where ansible is used to install **eEcolidar platform**, i.e., a set of tools necessary for the eEcolidar project.
@@ -30,7 +30,7 @@ To use an existing plattform, download the `zip` file from [eEcolidar's SURFsara
 
 Cloud provider | Cluster name | tar files'name | VM Template's used
 --- | --- | --- | ---
-SURF-Sara HPC cloud | eecolidar | SURFSara_HPCcloud_eecolidar.zip | Ubuntu-16.04.4-Server (2018-04-01) eEcolidarCluster
+SURFSara HPCcloud | eecolidar | SURFSara_HPCcloud_eecolidar.zip | Ubuntu-16.04.4-Server (2018-04-01) eEcolidarCluster
 
 Extract the `zip` file content to root directory of this repository (if not yet cloned, please follow [the instructions](https://github.com/eEcoLiDAR/infrastructure#infrastructure) to clone it). After extracting its content, follow the instructions in its README. Before that we recommend you to [install ansible](https://github.com/nlesc-sherlock/emma/blob/master/ansible.md#install-ansible).
 
