@@ -2,8 +2,6 @@
 
 All the information in how to manage, up- and down- load data, and interact with platform is here summarized. The deployment of the platform only needs a list of machines and all the rest is taken cared by **Emma**.
 
-Once the platform is up and running, the user only needs to upload the input data to the correct storage layer and then the platform is ready for [application developement](../applications).
-
 ## Virtual Machines
 Each platform setup will use a set of Virtual Machines (VMs). Create a set of VMs following the instructions of your preferred cloud provider. Please use the suggested template.
 
